@@ -1,5 +1,4 @@
 {"-1": ["NONE", "NONE"]}
-{"802640972": ["Walbrzych RRb1DX", "RR1d"]}
 {"3677041040": ["Radecz PoC", "D3R2"]}
 {"3044352": ["Radecz Hub \ud83d\udc31", "D3R1"]}
 {"1136066216": ["eremef.xyz", "meff"]}
@@ -13,7 +12,7 @@
 {"4272773951": ["Ko\u017amin ", "KO\u0179"]}
 {"3382285440": ["Remote Desktop Protocol (Wroc\u0142aw)", "\ud83d\udcbb"]}
 {"4201055552": ["ZYL 1 137 |PV| \ud83d\uddfcloranet.pl", "ZYL1"]}
-{"3676956516": ["Mateusz SQ3MW Mobil", "\ud83d\ude97"]}
+{"3676956516": ["Mateusz SQ3MW_DOM", "\ud83d\uded6"]}
 {"2448616339": ["RR M1NODE", "RRm1"]}
 {"3074740688": ["gr\u00dcn_wr", "\ud83c\udf40"]}
 {"3148358496": ["Klub \u0141\u0105czno\u015bci ODRA baza \"S\"\ud83d\udce1", "NSB2"]}
@@ -26,17 +25,17 @@
 {"1128136272": ["6Wroclaw1S8 \ud83e\udd53", "6WR1"]}
 {"2224750388": ["MPA_Home", "MP_H"]}
 {"1976484384": ["[PL] Janek BRESLAU ND MESHTASTIC.POP.PL", "WR0J"]}
-{"1128162072": ["MIXTERek mobile\ud83c\udf10", "Mm"]}
+{"1128162072": ["MIXTERek MQTT\ud83c\udf10", "Mm"]}
 {"3665045276": ["ZYL 4 137 |PV| \ud83d\uddfcloranet.pl", "ZYL4"]}
 {"3711146692": ["MPA_9_floor_h", "MPA9"]}
 {"4146257924": ["6Wroclaw1S8 \ud83e\udd53", "6WR1"]}
 {"1819477812": ["\u0141ukasz_JPX_Mobilny", "LET2"]}
 {"3074737660": ["Parapet Nowy Dw\u00f3r ", "wPND"]}
 {"802735628": ["MIXTERekCAR_GPS\ud83d\udefa", "MXTR"]}
-{"244001598": ["ZGORA Ptasia", "PT-A"]}
+{"244001598": ["ZGORA Ptasia", "PTA"]}
 {"2224772760": ["MPA_work", "MPW"]}
 {"2086325524": ["SLA 1 137 |PV| loranet.pl", "SLA1"]}
-{"2697609104": ["Siedlikow 3f90", "3f90"]}
+{"2697609104": ["Meshtastic 3f90", "3f90"]}
 {"2086296272": ["3ZGB Le\u015bny dziad zach\u00f3d", "3ZGB"]}
 {"994815204": ["Sp21 ESP 6WRO|8", "Sp21"]}
 {"1128001768": ["Kz01\ud83d\udce1", "Kz01"]}
@@ -67,11 +66,11 @@
 {"2534861440": ["GOR 1 137 |PV| loranet.pl", "GOR1"]}
 {"3829979194": ["BM-NODE https://meshtastic.pop.pl ", "d83a"]}
 {"1819523968": ["SP6PAK - mobile", "PAKm"]}
-{"2956759556": ["PUDELKO KRZYSZTOF ML3025 \ud83d\udeb4", "FNW3"]}
+{"2956759556": ["KLAPOFIONA ", "FNW3"]}
 {"799425336": ["SP6PAK - remote", "PAKr"]}
 {"800556260": ["SP6PAK - test, JO81LB76", "PAKt"]}
 {"941133122": ["BM-NODE https://meshtastic.pop.pl ", "8d42"]}
-{"465538753": ["SQ3JPL Rafa\u0142 ", "JPL"]}
+{"465538753": ["SQ3JPL RAFAL", "JPL"]}
 {"4201054704": ["RAW 1 137 ~ loranet.pl", "RAW1"]}
 {"2534863988": ["S1 PWL DOM \ud83c\udf2f", "\ud83c\udf2f"]}
 {"3382288208": ["Router \u015acinawa,,SIERRA''", "DL6"]}
@@ -89,14 +88,14 @@
 {"4175875698": ["P34R BASE", "P34R"]}
 {"4216183406": ["Meshtastic da6e", "da6e"]}
 {"1735665548": ["Meshtastic 278c", "278c"]}
-{"2798771736": ["BM-NODE DE18 https://meshtastic.pop.pl ", "BM8B"]}
+{"2798771736": ["KLECINA Base https://meshtastic.pop.pl ", "BM1B"]}
 {"2250393382": ["Sp14", "Sp14"]}
 {"3805517920": ["LIGOTA Core https://meshtastic.pop.pl ", "BM6C"]}
 {"1095671026": ["SP6PAT-1", "9cf2"]}
 {"2651171988": ["TP3 - PLAWSKI.PL - Tdeck", "TP3"]}
 {"3414580781": ["PicoW MQTT", "D3PI"]}
 {"197652567": ["MPA_Nrf", "MP_N"]}
-{"476818348": ["SwidnicaTEST", "Swdn"]}
+{"476818348": ["ART DSW", "Swdn"]}
 {"1658395968": ["tajemnica ptaszka kiwi", "tpk"]}
 {"1127940404": ["\ud83c\udf10 https://bia2.mc9.eu/ \ud83d\udef0sp4paw", "bia2"]}
 {"2534861300": ["RAW 2 137 ~ \ud83d\udce1 loranet.pl", "RAW2"]}
@@ -107,19 +106,19 @@
 {"2697684928": ["Mirka ZB mobile", "\ud83e\udda2"]}
 {"3677042680": ["JPZ", "JPZ"]}
 {"3148357440": ["Klub \u0141\u0105czno\u015bci ODRA mobil 1\ud83d\udeb2", "NSm"]}
-{"3677051320": ["Mateusz SQ3MW_Dom", "PWL"]}
+{"3677051320": ["Mateusz SQ3MW_Baza", "PWL"]}
 {"455734101": ["Pawe\u0142 Nowa S\u00f3l-ML3477 Mobil 1\ud83c\uddf5\ud83c\uddf1", "PNS3"]}
 {"2697661784": ["Franek ZB mobile", "\ud83d\udc36"]}
-{"1129835292": ["peanut \ud83e\udd5c GoW | omni", "pnt"]}
+{"1129835292": ["peanut \ud83e\udd5c GoW | FW+", "pnt"]}
 {"1129936908": ["Iron \ud83d\udd29 loranet.pl GoW\u2b95ZG | FW+", "iron"]}
 {"2160709626": ["Pentakilo Mob", "PM"]}
 {"1135974904": ["Meshtastic 99f8", "99f8"]}
 {"3806706332": ["\ud83d\ude97Sp04 mobile", "sp04"]}
-{"2956757076": ["Klub \u0141\u0105czno\u015bci ODRA mobil 1\ud83d\udeb2", "NSM1"]}
+{"2956757076": ["Marcin Sulech\u00f3w mobil", "MSm1"]}
 {"4022525853": ["Sp11 Sle|8", "Sp11"]}
 {"4012630662": ["Sp20 DIY", "Sp20"]}
 {"3677297136": ["Meshtastic 19f0", "19f0"]}
-{"861941648": ["K\u0142odawa \ud83c\udf10", "Jar1"]}
+{"861941648": ["Klodawa\ud83c\udfe0", "Jar1"]}
 {"1127952964": ["\u017baga\u0144 OSIEDLE (SQ3RC) | OMNI\ud83d\udce1", "FZGo"]}
 {"1848884360": ["Meshtastic bc88", "bc88"]}
 {"3662975564": ["R,--wr \ud83d\udd06", "R,--"]}
@@ -127,7 +126,7 @@
 {"2697774392": ["KIELCEARTH", "ARTH"]}
 {"84780280": ["Router 01 GoW", "R01"]}
 {"3677038600": ["WROC\u0141AWARTCZ", "ARTW"]}
-{"3665154752": ["S1 PWL ROUTER OSIEDLE \ud83d\udd0b\ud83d\udd0c", "\ud83e\uddf8"]}
+{"3665154752": ["S1 3QDM GRODZISK WLKP \ud83d\udd0c", "\ud83d\udce1"]}
 {"799058480": ["Meshtastic aa30", "aa30"]}
 {"2224709444": ["Domiss Wireless Paper ", "Dms3"]}
 {"2426323588": ["TP4 - SenseCap Indicator v.2.7.6 alpha", "TP4"]}
@@ -144,7 +143,7 @@
 {"3677012096": ["Mlodykowol_Home", "Mldy"]}
 {"1128033988": ["MeshBR", "MBR"]}
 {"3935273596": ["FGW3 Baza \ud83d\udef0", "FGW3"]}
-{"2570711461": ["Xiao mobil \ud83d\ude97\ud83d\udd77\ufe0f\ud83d\udd78\ufe0f", "Xiao"]}
+{"2570711461": ["Xiao Rawicz  mobil\ud83d\ude97\ud83d\udd77\ufe0f\ud83d\udd78\ufe0f", "XRm"]}
 {"3935277100": ["Meshtastic 902c", "902c"]}
 {"1128183140": ["SIO-04 mobil1", "S4m1"]}
 {"846307589": ["andr mobile", "andr"]}
@@ -244,7 +243,7 @@
 {"2956765764": ["Yagi to Konin aa44", "YtKo"]}
 {"3665029268": ["Pandzio", "Pand"]}
 {"1168042900": ["BM-NODE https://meshtastic.pop.pl ", "eb94"]}
-{"14239464": ["Meshtastic 46e8", "46e8"]}
+{"14239464": ["Router Przylesie", "DL2"]}
 {"3663103604": ["\ud83c\udf69 meshtastic.info.pl \ud83c\udfe0\ud83d\udd0c\ud83c\udf10", "8674"]}
 {"3121395512": ["Volcik Mobilny ", "VoMo"]}
 {"682969452": ["Mesh Flord", "Flrd"]}
@@ -274,11 +273,11 @@
 {"3497457529": ["[f779] RAKowski \u264b ", "Z3R0"]}
 {"3665042136": ["filips-06 \ud83d\ude38\ud83c\uddf5\ud83c\uddf1 (Ochota W)", "flp6"]}
 {"1135973704": ["BRO", "B_1"]}
-{"2956833884": ["Bluefalcon", "Blue"]}
+{"2956833884": ["Bluefalcon \ud83d\udd35", "Blue"]}
 {"3665154624": ["LocalMesh3", "LMBs"]}
 {"2956790432": ["Strzelin", "AMT"]}
-{"3033999679": ["BM-NODE https://meshtastic.pop.pl ", "293f"]}
-{"3730553583": ["\u017b\u00d3RAWINA Core BM-NODE", "BM5C"]}
+{"3033999679": ["BM-NODE 293F https://meshtastic.pop.pl ", "BM7B"]}
+{"3730553583": ["LUBI\u0104Z Core https://meshtastic.pop.pl", "BM5C"]}
 {"1128123152": ["HANS KLOSSE", "J23"]}
 {"1128178384": ["Vaaaxxx_alpha", "VxxA"]}
 {"1128037472": ["R-2 7c60", "R2"]}
@@ -290,7 +289,7 @@
 {"1649759874": ["DST0-Balkon", "DST0"]}
 {"231173667": ["Meshtastic 6e23", "6e23"]}
 {"903665972": ["Meshtastic d934", "d934"]}
-{"1851882858": ["Janusz Rawicz\ud83d\udd77\ufe0f\ud83d\udd78\ufe0f", "J.R"]}
+{"1851882858": ["Janusz Rawicz pocket\ud83d\udd77\ufe0f\ud83d\udd78\ufe0f", "J.R"]}
 {"1244661940": ["Fresh", "mwrc"]}
 {"3121382676": ["Poniec Volcik ", "PoVl"]}
 {"2449807738": ["Mariusz Sulech\u00f3w Mobile", "SUL7"]}
@@ -333,7 +332,7 @@
 {"3948697162": ["ania siewcy 3", "ania"]}
 {"1086496004": ["BM-NODE https://meshtastic.pop.pl ", "9d04"]}
 {"14241016": ["Volcik Test lokalizacji ", "MiVl"]}
-{"2956709780": ["Meshtastic cf94", "cf94"]}
+{"2956709780": ["8mzw base", "8mzw"]}
 {"1589521333": ["Jarek_Sulechow_SQ3SKN", "SKN"]}
 {"458033433": ["format meshpocket \ud83d\udcdf", "fm"]}
 {"1128204708": ["MaR-Chojn\u00f3w \ud83d\ude99", "MaR"]}
@@ -347,8 +346,8 @@
 {"207139300": ["Sp05 tdeck", "Sp05"]}
 {"4178258320": ["D4 Hydra", "D3H1"]}
 {"3929283124": ["sp6def-4", "def4"]}
-{"2956832340": ["sp6def-2", "def2"]}
-{"2956826528": ["sp6def-baza", "def"]}
+{"2956832340": ["SP6DEF-ROD", "defR"]}
+{"2956826528": ["SP6DEF-BAZA BD", "defB"]}
 {"305963006": ["And 1 137", "And1"]}
 {"796036988": ["ZYL 2 137 |PV| \ud83d\udce1 loranet.pl", "ZYL2"]}
 {"3716583607": ["Janusz Rawicz nRF\ud83d\udd77\ufe0f\ud83d\udd78\ufe0f", "J.Rn"]}
@@ -390,7 +389,7 @@
 {"492887356": ["Freifunk-Zwingli", "FFZW"]}
 {"109977276": ["free2air gateway", "f2ag"]}
 {"1127929664": ["TWR3-Node", "TWR3"]}
-{"3677264288": ["Router Wypoczynkowa - N.Tomy\u015bl\u2600\ufe0fPV", "R4NT"]}
+{"3677264288": ["Zod, The General", "Zod "]}
 {"4184216511": ["eremef\ud83d\udcf1", "memo"]}
 {"2956829340": ["heltec_stng", "stng"]}
 {"2956813072": ["T55 6310", "T55"]}
@@ -420,7 +419,7 @@
 {"2697774596": ["Norek c604", "NORO"]}
 {"2980783936": ["\u015awiebodzice \ud83d\udd0b\ud83c\udf10 \u2600\ufe0f \ud83c\uddf5\ud83c\uddf1", "Swbc"]}
 {"1958974009": ["SP6RSP_SWIDNICA", "6RSP"]}
-{"3121390416": ["Domiss 5", "Dms5"]}
+{"3121390416": ["Domiss 5 mqtt bot", "Dms5"]}
 {"206384940": ["kravietz", "krav"]}
 {"1443986813": ["JohnnyK 7d7d", "7d7d"]}
 {"3997087738": ["BM-NODE https://meshtastic.pop.pl ", "b7fa"]}
@@ -462,7 +461,7 @@
 {"2672074543": ["Lubuskie w\u0119ze\u0142 testowy ", "SUL6"]}
 {"1658396008": ["Meshtastic 1d68", "1d68"]}
 {"1818739276": ["Kat", "Kat"]}
-{"3879554851": ["S1 PWL SZYMON ", "\ud83e\uded9"]}
+{"3879554851": ["S1 PWL ROUTER GRODZISK SP3PWL \ud83d\udd0b\ud83d\udd0c", "\ud83e\uddf8"]}
 {"3166656763": ["\ud83e\udd9c", "KUKI"]}
 {"17014653": ["MLG2_MF", "MLG2"]}
 {"2025391258": ["WRO - NRF52 proto x4", "WRp4"]}
@@ -487,12 +486,12 @@
 {"1128107092": ["SP3PJA 8c54", "3PJA"]}
 {"3587723390": ["\ud83e\uddd9", "JBPJ"]}
 {"4202220038": ["6WR4_PanB \ud83e\udd53", "6WR4"]}
-{"2661419856": ["Heltec v3 Testowy Baza", "HTB1"]}
+{"2661419856": ["ML 1007 Mobil", "NSM1"]}
 {"4146000928": ["\ud83c\udf69 TBeam f420 \ud83d\udd0b\ud83d\ude99", "f420"]}
-{"3677318208": ["Router Os. Batorego 2 - Nowy Tomy\u015bl", "R3NT"]}
+{"3677318208": ["Router Os. Batorego Yagi - Nowy Tomy\u015bl", "R3NT"]}
 {"1322154360": ["ZbyluPL", "zbpl"]}
 {"2224711920": ["SP6DBX-H \ud83c\udfe0\ud83d\udd0c\ud83c\udf10", "DANH"]}
-{"2666020996": ["SP6TKP \ud83c\udfe0\u2600\ufe0f", "KAR"]}
+{"2666020996": ["SP6TKP testowy", "KP-t"]}
 {"2697708416": ["Michal SP6DJE ", "DJE"]}
 {"1812236568": ["TangoZulu", "taz8"]}
 {"2925608492": ["SEEED_XIAO_SULECHOW", "JW63"]}
@@ -500,3 +499,56 @@
 {"2666026116": ["Meshtastic 5484", "5484"]}
 {"1128028624": ["chartowo", "chrt"]}
 {"1697053872": ["Radecz Hub 33 \ud83d\ude3a Panel - WB ", "D3R3"]}
+{"1129895788": ["Meshtastic d76c", "d76c"]}
+{"4188889812": ["ZbyluPL Ligota Pi\u0119kna", "ZbLP"]}
+{"2418590404": ["MIXTERek eInk", "c2c4"]}
+{"4201164188": ["YD13 KR\u00a5$i@ (Heltec Black)", "YDHB"]}
+{"2644442426": ["Meshtastic fd3a", "fd3a"]}
+{"3524706014": ["Marta Siewcy 3", "MS3"]}
+{"2665939744": ["Klub \u0141\u0105czno\u015bci ODRA baza \"N\"\ud83d\udce1", "NS-N"]}
+{"4189086888": ["LoRa 64a8", "L64a"]}
+{"3663938152": ["Meshtastic 4268", "4268"]}
+{"3677055428": ["SSL1", "SSL1"]}
+{"2661270840": ["Klub \u0141\u0105czno\u015bci ODRA baza \"S\"\ud83d\udce1", "NS-S"]}
+{"2697685884": ["Meshtastic 6b7c", "m102"]}
+{"2666335616": ["Mariusz Sulech\u00f3w Mobile", "SUL9"]}
+{"2697707264": ["Wa\u0142brzych Topolowa", "bf00"]}
+{"3413442104": ["MarcinML2558bz", "fe38"]}
+{"383250912": ["Miekowo M2", "MND2"]}
+{"2666334584": ["Meshtastic 0978", "0978"]}
+{"3935279276": ["Meshtastic 98ac", "98ac"]}
+{"1127917748": ["Klub SP6PCL testy", "PCL"]}
+{"3663863228": ["WebXnode", "WbXn"]}
+{"1844006385": ["ML1941 Bo\u017cn\u00f3w", "FZGb"]}
+{"4189207348": ["Groble Baza ", "3b34"]}
+{"2956819316": ["unblau-2", "unb2"]}
+{"4201362692": ["TWR2-Zentrum", "TWR2"]}
+{"1669725600": ["\ud83d\ude9c\ud83d\udca8", "TRKT"]}
+{"923109193": ["Bartas_Pzn", "Brts"]}
+{"3145933764": ["zmo[R] Szczecin Bukowo rtr \ud83c\udfe1\ud83d\udce1", "zmoR"]}
+{"1128190412": ["kuba201", "k201"]}
+{"2956850904": ["SP6DEF atk10 BRZEG DOLNY ", "defD"]}
+{"1439043248": ["Router 02 GoW", "R02"]}
+{"3677014680": ["Router Wypoczynkowa - Nowy Tomy\u015bl", "R4NT"]}
+{"2224711928": ["SP6TKP - Papier", "KP-p"]}
+{"3664033796": ["BrooNet_draen", "DRN9"]}
+{"3603054142": ["sk33k4_SOL", "sk33"]}
+{"3677317748": ["\ud83d\uddfcMosina", "Mos1"]}
+{"1128101908": ["\ud83c\udfcd\ufe0f VSS tracker", "VSSt"]}
+{"2654773020": ["Meshtastic 9f1c", "9f1c"]}
+{"4091338049": ["Domiss Xiao Nrf52", "DmsX"]}
+{"2095882771": ["OPOR\u00d3W Core https://meshtastic.pop.pl", "BM3C"]}
+{"4250870398": ["\ud83d\uddfcITIXO.cz", "ITXO"]}
+{"1129880464": ["\ud83d\uddfcSQ3XBD DOM \ud83d\udd0b\ud83d\udd0c", "XBD"]}
+{"1598531688": ["DorotaBarbara", "DB86"]}
+{"1924780271": ["Mesh DIY", "DIY"]}
+{"3543198893": ["KLECINA Core https://meshtastic.pop.pl", "BM2C"]}
+{"3924147758": ["Meshtastic be2e", "be2e"]}
+{"3905527100": ["TaczNet", "Tac1"]}
+{"1819532992": ["kl2 SP3KLU ML3277\ud83e\udea2\ud83d\udcfb", "kl2"]}
+{"2425773960": ["Swarzedz_5f88", "5f88"]}
+{"3126986068": ["Mi\u0119kowo", "MND1"]}
+{"2956715848": ["PWR - K60 base", "K60"]}
+{"4150456636": ["TaczNet2", "Tac2"]}
+{"3895697368": ["AlphaZulu", "allu"]}
+{"802640972": ["Walbrzych RRb1DX", "RR1d"]}

@@ -1,0 +1,28 @@
+[Unit]
+Description=Meshbot Service
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/opt/meshbot
+
+ExecStart=/opt/meshbot/venv/bin/python3 /opt/meshbot/meshbot.py
+
+Restart=on-failure
+RestartSec=5s
+TimeoutStopSec=20s
+KillSignal=SIGINT
+Environment="PATH=/opt/meshbot/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin"
+
+StandardOutput=journal
+StandardError=journal
+
+NoNewPrivileges=true
+PrivateTmp=true
+WorkingDirectory=/opt/meshbot
+
+[Install]
+WantedBy=multi-user.target
