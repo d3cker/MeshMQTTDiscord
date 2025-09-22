@@ -165,7 +165,7 @@ def get_names(nodeid):
             fromlong, fromshort = entry
         else:
             node_hex_value = nodeid_to_hex(nodeid)
-            fromshort = node_hex_value[:-4]
+            fromshort = node_hex_value[-4:]
             fromlong = "Meshtastic " + fromshort + " (!" + node_hex_value + ")"
     return fromshort, fromlong
 
