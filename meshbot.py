@@ -199,7 +199,7 @@ def save_nodedb(data):
 # Update dict and NodeDB - this should be scheduled at some point
 # currently it's called upon every new/updated nodeinfo content
 def update_nodedb(nodeid, shortname, longname):
-    key = nodeid_to_hex(nodeid)
+    key = str(nodeid)
     new_key = [ longname, shortname ]
     with nodes_lock:
         old_key = nodes_dict.get(key)
