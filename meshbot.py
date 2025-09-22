@@ -32,7 +32,6 @@ DISCORD_THREAD_ID = 0   # Discord thread ID, set it to 0 if you want to send mes
 
 # ---------- Config file
 def check_and_create_config():
-
     config_file = "meshbot.config"
     
     if not os.path.exists(config_file):
@@ -60,7 +59,6 @@ def check_and_create_config():
         return True
 
 def load_config():
-
     global MQTT_BROKER, MQTT_PORT, MQTT_USER, MQTT_PASSWORD, MQTT_TOPIC
     global DISCORD_TOKEN, DISCORD_CHANNEL_ID, DISCORD_THREAD_ID
     
@@ -148,6 +146,16 @@ log = logging.getLogger("mqtt-discord")
 queue: asyncio.Queue = asyncio.Queue()
 
 # ---------- NodeDB --------
+# Helper function to convert decimal nodeid to lowercase hex
+def nodeid_to_hex(nodeid):
+    try:
+        decimal_value = int(nodeid)
+        hex_value = hex(decimal_value)[2:]  # Remove '0x' prefix
+        return hex_value.lower()
+    except ValueError:
+        # If conversion fails, return original value
+        return str(nodeid).lower()
+
 # Thread safe NodeDB dict
 def get_names(nodeid):
     key = str(nodeid)
@@ -156,7 +164,9 @@ def get_names(nodeid):
         if entry:
             fromlong, fromshort = entry
         else:
-            fromshort, fromlong = key, "UNKNOWN"
+            node_hex_value = nodeid_to_hex(nodeid)
+            fromshort = node_hex_value[-4:]
+            fromlong = "Meshtastic " + fromshort + " (!" + node_hex_value + ")"
     return fromshort, fromlong
 
 # Load NodeDB JSONL
@@ -189,7 +199,7 @@ def save_nodedb(data):
 # Update dict and NodeDB - this should be scheduled at some point
 # currently it's called upon every new/updated nodeinfo content
 def update_nodedb(nodeid, shortname, longname):
-    key = str(nodeid)
+    key = nodeid_to_hex(nodeid)
     new_key = [ longname, shortname ]
     with nodes_lock:
         old_key = nodes_dict.get(key)
@@ -210,8 +220,7 @@ def on_connect(client, userdata, flags, reason_code, properties=None):
     else:
         log.error(f"MQTT connect failed: {reason_code}")
 
-def on_message(client, userdata, msg):
-    
+def on_message(client, userdata, msg):    
     try:
         payload_str = msg.payload.decode("utf-8", errors="replace").strip()
         data = json.loads(payload_str)
@@ -282,7 +291,6 @@ client_discord = discord.Client(intents=INTENTS)
 
 async def send_loop():
     # Gets message from the queue and publish to Discord
-
     await client_discord.wait_until_ready()
     if DISCORD_CHANNEL_ID == 0:
         log.error("DISCORD_CHANNEL_ID is missing!")
@@ -303,7 +311,7 @@ async def send_loop():
                 except discord.Forbidden:
                     log.warning("Can't unarchive the thread!")
         else:
-            # zwykły kanał
+            # Fallback to channel
             target = await client_discord.fetch_channel(DISCORD_CHANNEL_ID)
     except discord.NotFound:
         log.error("No channel/thread with given ID or missing Guild")
@@ -381,7 +389,7 @@ async def main():
             # Windows
             pass
 
-    # Start discord clieant
+    # Start discord client
     discord_task = asyncio.create_task(client_discord.start(DISCORD_TOKEN))
 
     # Wait for stop signal
