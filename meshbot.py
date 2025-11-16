@@ -235,6 +235,15 @@ def on_message(client, userdata, msg):
                 hops = "0/0" # Message with hoplimit 0?
             else:
                 hops = str(hops_away) + "/" + str(hop_start)
+            
+            # Safely extract text payload
+            text_payload = ""
+            if isinstance(data["payload"], dict) and "text" in data["payload"]:
+                text_payload = data["payload"]["text"]
+            else:
+                log.warning(f"Invalid text payload format: {data['payload']}")
+                text_payload = str(data["payload"])
+            
             # add data and meta to the queue
             asyncio.run_coroutine_threadsafe(
                 queue.put({
@@ -243,7 +252,7 @@ def on_message(client, userdata, msg):
                     "fromshort": fromshort,
                     "fromlong": fromlong,
                     "hops" : hops,
-                    "payload": data["payload"]["text"],
+                    "payload": text_payload,
                     "raw": payload_str,
                     "ts": datetime.utcnow().isoformat() + "Z",
                 }),
